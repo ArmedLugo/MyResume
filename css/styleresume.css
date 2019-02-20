@@ -1,0 +1,40 @@
+
+.pl80{
+    padding-left: 80px;
+}
+
+.pl180{
+    padding-left: 180px;
+}
+
+#importante{
+    color:green;
+    font-size: medium;
+    
+}
+
+.header{
+    height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:lightblue;
+}
+
+div.header p {
+    align-self: auto;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: 2px solid;
+    margin: 0 20px 0 0;
+}
+
+#subtitulo{
+    font-size: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+    .esdiv{width: 8.33%;}
+    #importante{color: red;
+    /*el red es para revisar que funciona y tamaños */}
+  }
